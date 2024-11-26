@@ -5,9 +5,9 @@ import { config } from "dotenv";
 config();
 
 cloudinary.config({
-  cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
-  api_key: process.env.CLOUDINARY_API_KEY,
-  api_secret: process.env.CLOUDINARY_API_SECRET,
+  cloud_name:'dyzma9ccs' ,
+  api_key: '187829375452688',
+  api_secret: 'WPENM',
 });
 
 export default cloudinary;
